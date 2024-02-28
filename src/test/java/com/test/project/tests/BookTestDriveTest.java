@@ -38,7 +38,7 @@ public class BookTestDriveTest extends JsonDataReader {
         }
     }
 
-    /* Req1: To Verify the Book Test Drive functionality */
+    /* To Verify the Book Test Drive functionality */
     @Test
     public void verifyBookTestDriveFunctionality() throws Exception {
         try {
