@@ -22,6 +22,7 @@ public class DriverSetup {
         //Maximize the Window
         driver.manage().window().maximize();
 
+        //accept cookies
         driver.findElement(By.xpath("//*[@id=\"consent_prompt_submit\"]")).click();
 
         return driver;

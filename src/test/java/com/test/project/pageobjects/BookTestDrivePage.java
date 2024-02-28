@@ -15,7 +15,6 @@ import java.util.List;
 import static org.openqa.selenium.support.ui.ExpectedConditions.presenceOfAllElementsLocatedBy;
 
 public class BookTestDrivePage extends BaseClass {
-
     private final By headerBookTestDrive = By.xpath("//h1[normalize-space()='Book a Test Drive or Appointment']");
     private final By txtFirstName = By.id("input_first_name");
     private final By txtLastName = By.id("input_last_name");
@@ -83,9 +82,6 @@ public class BookTestDrivePage extends BaseClass {
                     break;
                 }
             }
-            /*Actions act = new Actions(driver);
-            act.sendKeys(Keys.ENTER);*/
-
         } catch (Exception ex) {
             throw ex;
         }

@@ -32,8 +32,7 @@ public class BookTestDriveTest extends JsonDataReader {
 
     private void envSetup() throws Exception {
         try {
-            data = getJSONTestData();
-            String name = (String) data.get("FirstName");
+            data = getJSONTestData();//read test data
         } catch (Exception ex) {
             throw ex;
         }

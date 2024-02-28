@@ -4,7 +4,6 @@ import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import java.io.FileReader;
 
-
 public class JsonDataReader {
 
     public JSONObject getJSONTestData() throws Exception {
