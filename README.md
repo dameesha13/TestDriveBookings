@@ -34,6 +34,8 @@ Project structure is as below.
             ├── tests
             ├── utils
         ├── resources
+            ├── data #The test data files are located in this directory.
             ├── testng # TestNG xml files are located in src/test/resources/testng/ directory.
+├── target
    ├── pom.xml
    ├── README.md 
