@@ -12,7 +12,7 @@ This project encompasses automated test cases tailored for the site (https://www
 * Git
 
 ###### Checkout the branch
-      git clone https://github.com/dameesha13/WebUIAutomationTest.git
+      git clone https://github.com/dameesha13/TestDriveBookings.git
 
 ###### Run the code using Maven goal
 
